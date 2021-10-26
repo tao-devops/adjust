@@ -69,7 +69,7 @@ and the output:
 Note:In file.yaml is  a root-reserve filesystem which there is no mount point on fstab,if you want to add this,you can use tune2fs (tune2fs command in Linux is used to manipulate the filesystem parameters of a ext 2/3/4 type file system)
  
  
-# jq is like sed for JSON data - you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text.
+# jq is like sed for JSON data - you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep  
 jq is for files manipulation
 
 # Installation of jq
