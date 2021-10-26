@@ -5,7 +5,7 @@ yq a lightweight and portable command-line YAML processor. yq uses jq like synta
 # Install yq
 Most of the new linux versios has yq installed,but if there is not installed,you can check : yq --version,if the output is null then:
 
-1.$ sudo apt install python3-pip -y 
+1.$ sudo apt install python3-pip -y #yum for centos/red hat
 #
 2.$ sudo  pip3 install yq
 
@@ -74,7 +74,7 @@ jq is for files manipulation
 
 # Installation of jq
 
-sudo apt-get install jq
+sudo apt-get install jq #yum for centos/red hat
 #
 You will use jq -r to read in json format.because if we use yq withot jq we need to use a lot of regular expresions,on our script.
 
